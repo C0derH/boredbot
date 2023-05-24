@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#16DB65,#0D2818);
+    height: 100vh;
+    background-repeat : no-repeat;
+    color: #020202;
+    font-family: 'VT323', monospace;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(#020202, #04471C);
+}
+button:active {
+    transform: translateY(2px);
+}
+
+.happy-btn {
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.happy-bg {
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
